@@ -1,0 +1,12 @@
+X Write a program that prints 'Hello World' to the screen, and then make it a method and make it run.
+ X Write a program that asks the user for her name and greets her with her name.
+ X Modify the previous program such that only the users Rick, Daryl and Michone are 
+   greeted with their names, everyone else is told to go out and find supplies.
+ X Enter a number and have the computer tell you if it is an Odd or Even number.
+   - Do pry tutorial here
+    https://www.youtube.com/watch?v=nzKnh-hsVpg
+
+ X Build the Odds or Evens game (like rockpaper scissors, but more basic).
+ X FizzBuzz
+ X Write a program that asks for two numbers and does all the math things to those two numbers
+ X Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
