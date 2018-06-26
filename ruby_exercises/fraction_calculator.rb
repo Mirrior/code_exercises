@@ -38,5 +38,17 @@ describe 'Fraction multiplication' do
     it 'can add two fractions and output the value in a string based fraction format' do
       expect(second_fraction_calculator("+", "1/3", "2/4")).to eq("5/6")
     end
+
+    it 'can subtract two fractions and output the value in a string based fraction format' do
+      expect(second_fraction_calculator("-", "1/3", "2/4",)).to eq("-1/6")
+    end
+
+    it 'can multiply two fractions and output the value in a string based fraction format' do
+      expect(second_fraction_calculator("*", "1/3", "2/4")).to eq("1/6")
+    end
+
+    it 'can divide two fractions and output the value in a string based fraction format' do
+      expect(second_fraction_calculator("/", "1/3", "2/4")).to eq("2/3")
+    end
   end
 end
