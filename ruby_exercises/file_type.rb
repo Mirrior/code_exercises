@@ -3,7 +3,9 @@ require 'rspec'
 # Almos there
 class Array
   def file_selector type
-    self.select{ |file| file.match(/\.#{type}$/)}
+    select{ |file| file.match(/\.#{type}$/)}.map do |file|
+      file.chomp(".#{type}")
+    end
   end
 end
 describe 'File selector' do
