@@ -16,8 +16,11 @@ end
 #end
 
 describe 'Increment string value sequence' do
-  it 'appends the next item in the sequence of a string' do
+  it 'appends the next letter in the sequence of a string' do
     expect(increment_value 'abcde').to eq('abcdef')
+  end
+
+  it 'appends the next number in the sequence of a string' do
     expect(increment_value '123').to eq('1234')
   end
 end
