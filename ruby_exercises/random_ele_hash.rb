@@ -11,7 +11,7 @@ menu = {
 # hash[hash.keys[rand(hash.count)]][rand(hash[hash.keys[rand(hash.count)]].count)]
 # end
 
-#  Second way, most geeral?
+#  Second way, most general?
 #def daily_special hash
 #  hash.values.flatten[ rand ( hash.values.flatten.count ) ]
 #end
