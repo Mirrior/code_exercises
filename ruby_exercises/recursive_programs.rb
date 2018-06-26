@@ -1,8 +1,17 @@
+# First Version
+# def recursive_countdown attempt
+#   return if attempt.zero?
+#   puts attempt
+#   recursive_countdown(attempt-1)
+# end
+
+# Second Version
 def recursive_countdown attempt
-  return if attempt.zero?
   puts attempt
-  recursive_countdown(attempt-1)
+  attempt == 1 ? return : recursive_countdown(attempt-1)
 end
+
+my_arr = [1, 2, 3, 4, 5, 6]
 
 def sum_array_iteratively(arr)
   total_sum = 0
@@ -12,8 +21,6 @@ def sum_array_iteratively(arr)
   end
 
 end
-
-my_arr = [1, 2, 3, 4, 5, 6]
 
 def sum_array_recursive(arr)
   if arr.empty?

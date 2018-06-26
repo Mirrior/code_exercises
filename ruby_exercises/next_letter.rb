@@ -1,8 +1,13 @@
 require 'rspec'
 
 #My way
+# def increment_value str
+#   str.concat(str.next.split(//)[-1])
+# end
+
+# Different way (Fewer Methods than first time)
 def increment_value str
-  str.concat(str.next.split(//)[-1])
+  str.concat str.next.slice(-1)
 end
 
 #Jordan's way
