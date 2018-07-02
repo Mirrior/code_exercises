@@ -1,7 +1,6 @@
 require 'rspec'
 
 class Array
-  #Jordan's way
   def bubble_sort
     n = self.length
 
@@ -22,6 +21,7 @@ class Array
     
   end
 end
+
 describe 'Adding bubble sort to the Array class' do
   it 'Properly sorts an array' do
     arr = [4, 1, 6, 10, 44, 2, 3]
