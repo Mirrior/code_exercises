@@ -1,20 +1,16 @@
 require 'rspec'
 
-#My way
-#class Hash
-#  def param_converter
-#    string = String.new
-#    each do |key, value|
-#      string.concat("#{key}=#{value}&")
-#    end
-#    string.chop!
-#  end
-#end
-
 #Jordan's way
+# class Hash
+#   def param_converter
+#     self.map { |i| i * "=" } * "&"
+#   end
+# end
+
+# Slightly Rewritten
 class Hash
   def param_converter
-    self.map { |i| i * "=" } * "&"
+    map { |i| i * "=" } * "&"
   end
 end
 
