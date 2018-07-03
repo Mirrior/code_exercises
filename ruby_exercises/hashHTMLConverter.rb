@@ -1,13 +1,5 @@
 require 'rspec'
 
-#Jordan's way
-# class Hash
-#   def param_converter
-#     self.map { |i| i * "=" } * "&"
-#   end
-# end
-
-# Slightly Rewritten
 class Hash
   def param_converter
     map { |i| i * "=" } * "&"
